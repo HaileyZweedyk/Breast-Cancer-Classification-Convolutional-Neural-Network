@@ -4,7 +4,15 @@
 
 Python (tensorflow, scikit-learn, matplotlib, pandas, numpy, os, kagglehub)
 
-## Overview
+## Executive Overview
+
+This project develops a deep learning model to classify breast ultrasound images as benign, malignant, or normal using transfer learning with ResNet50. The focus is on improving detection of malignant tumors, where missed cases (false negatives) have the greatest clinical impact.
+
+While early models achieved high overall accuracy, they performed poorly in identifying malignant cases. To address this, class weights were introduced to better reflect the importance of each category. This change increased malignant recall from below 60% to 90% in the final model, with overall accuracy reaching 91%.
+
+These results show that optimizing for the right metric, specifically recall for high-risk cases, can significantly improve model reliability. Even with a limited and imbalanced dataset, targeted adjustments led to meaningful performance gains, making the model more aligned with real-world screening priorities.
+
+## Project Overview
 This project uses a Convolutional Neural Network (CNN) with transfer learning to classify breast ultrasound images into three categories:
 
 - **Benign**
