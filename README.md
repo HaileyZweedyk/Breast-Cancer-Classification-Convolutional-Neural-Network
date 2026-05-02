@@ -18,7 +18,7 @@ Breast cancer accounts for ~30% of new cancer diagnoses among women in the U.S.,
 ---
 
 ## Dataset
-- **Source:** Breast Ultrasound Images Dataset
+- **Source:** Kaggle Breast Ultrasound Images Dataset
 - **Size:** 1,578 images  
 - **Classes:** Benign, Malignant, Normal  
 - **Challenge:** Class imbalance across categories  
@@ -119,5 +119,5 @@ Increasing malignant weight to 2.5 resulted in performance decline, confirming *
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 This project is for research and educational purposes only and is not intended for clinical use.
