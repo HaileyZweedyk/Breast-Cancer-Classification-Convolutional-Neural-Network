@@ -90,6 +90,12 @@ Increasing malignant weight to 2.5 resulted in performance decline, confirming *
 
 ## Results
 
+### Confusion Matrix
+
+![Confusion Matrix](Images/ConfusionMatrix.png)
+
+### Evaluation Metrics
+
 | Metric            | Score |
 |------------------|------|
 | Accuracy         | 91%  |
